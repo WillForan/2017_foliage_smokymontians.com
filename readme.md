@@ -24,3 +24,8 @@ copy( JSON.stringify( $("svg>g>path").map(function(i,f){return([[f.getAttribute(
 # shell
 xclip -o|jq '.[]|@csv' -r|sed 's/"//g; s/f-/f/; > foliage_20171015.csv
 ```
+
+## See Also
+* http://maps.dcnr.pa.gov/storymaps/fallfoliage/
+* http://www.dcnr.pa.gov/Conservation/ForestsAndTrees/FallFoliageReports/Pages/default.aspx
+* https://weather.com/maps/fall-foliage
